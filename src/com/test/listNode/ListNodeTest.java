@@ -16,4 +16,7 @@ public class ListNodeTest {
         ListNode node3=new ListNode(3,node2);
         System.out.println(node3.val);
     }
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        return null;
+    }
 }
