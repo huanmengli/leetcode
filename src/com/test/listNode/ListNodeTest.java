@@ -17,10 +17,10 @@ public class ListNodeTest {
         ListNode node2=new ListNode(2,node1);
         ListNode node3=new ListNode(3,node2);
         System.out.println(node3.next.next.val);
-//        ListNode node4 = new ListNode(1);
-//        ListNode node5=new ListNode(2,node4);
-//        ListNode node6=new ListNode(3,node5);
-//        System.out.println(addTwoNumbers(node3,node6).val);
+        ListNode node4 = new ListNode(1);
+        ListNode node5=new ListNode(2,node4);
+        ListNode node6=new ListNode(3,node5);
+        System.out.println(addTwoNumbers(node3,node6).val);
     }
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode node = null;
